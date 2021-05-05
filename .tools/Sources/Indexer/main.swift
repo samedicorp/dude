@@ -49,6 +49,11 @@ var schematicIDToName: [Int:String] = [:]
 var compactSchematics: [Int:CompactSchematic] = [:]
 var productsByType: [String:Product] = [:]
 var productNameToType: [String:String] = [:]
+var text = ""
+var lua = """
+    local data = {}
+    data.schematics = {
+    """
 
 func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: Encodable {
     let encoder = JSONEncoder()
@@ -74,13 +79,73 @@ func add(product: Product, type: String, primary: Bool) {
     }
 }
 
+func addText(for schematic: Schematic) {
+    let ingredientText: String
+    if schematic.ingredients.count == 0 {
+        ingredientText = ""
+    } else {
+        let formatted = schematic.ingredients.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+        ingredientText = "\nIngredients:\n\(formatted)"
+    }
+    
+    let outputText: String
+    if schematic.products.count == 0 {
+        outputText = ""
+    } else {
+        let formatted = schematic.products.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+        outputText = "\nOutput:\n\(formatted)\n"
+    }
+
+    text.append("Name: \(schematic.name)\nLevel: \(schematic.level)\nTime: \(schematic.time)\(ingredientText)\(outputText)\n\n")
+}
+
+func addLua(for schematic: Schematic) {
+    let ingredientText: String
+    if schematic.ingredients.count == 0 {
+        ingredientText = ""
+    } else {
+        let formatted = schematic.ingredients.map({ "[\"\($0.type)\"] = \($0.quantity)"}).joined(separator: ", ")
+        ingredientText = "\n        input = {\(formatted)},\n        "
+    }
+    
+    var outputText: String
+    if schematic.products.count == 0 {
+        outputText = ""
+    } else {
+        let formatted = schematic.products.map({ "[\"\($0.type)\"] = \($0.quantity)"}).joined(separator: ", ")
+        outputText = "output = {\(formatted)}"
+        if schematic.products.count > 1, let main = schematic.products.first?.type {
+            outputText = "makes = \"\(main)\",\n        " + outputText
+        }
+    }
+
+    lua.append("""
+        [\(schematic.id)] = {
+            name = "\(schematic.name)",
+            level = \(schematic.level),
+            time = \(schematic.time),\(ingredientText)\(outputText)
+            },
+    
+    """)
+}
+
+func addProductLua(for product: Product, type: String) {
+    let schematicString: String
+    if let schematic = product.schematic {
+        schematicString = ", schematic = \(schematic)"
+    } else {
+        schematicString = ""
+    }
+    
+    lua.append("    [\"\(type)\"] = { name = \"\(product.name)\"\(schematicString) },\n")
+}
+
 let decoder = JSONDecoder()
 let url = dataURL.appendingPathComponent("Schematics").appendingPathComponent("raw.json")
 let data = try Data(contentsOf: url)
 let schematics = try decoder.decode(Schematics.self, from: data)
 
 print("\(schematics.count) records imported.")
-var text = ""
 
 let sorted = schematics
     .values
@@ -109,23 +174,8 @@ for schematic in sorted {
     let compact = CompactSchematic(level: schematic.level, time: schematic.time, main: main, ingredients: compactIngredients, products: compactProducts)
     compactSchematics[schematic.id] = compact
     
-    let ingredientText: String
-    if schematic.ingredients.count == 0 {
-        ingredientText = ""
-    } else {
-        let formatted = schematic.ingredients.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
-        ingredientText = "\nIngredients:\n\(formatted)"
-    }
-    
-    let outputText: String
-    if schematic.products.count == 0 {
-        outputText = ""
-    } else {
-        let formatted = schematic.products.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
-        outputText = "\nOutput:\n\(formatted)\n"
-    }
-
-    text.append("Name: \(schematic.name)\nLevel: \(schematic.level)\nTime: \(schematic.time)\(ingredientText)\(outputText)\n\n")
+    addText(for: schematic)
+    addLua(for: schematic)
 }
 
 print("\(compactSchematics.count) schematics exported.")
@@ -139,3 +189,12 @@ write(productNameToType, name: "names", kind: "Products")
 
 let textURL = dataURL.appendingPathComponent("Schematics/readable.txt")
 try text.write(to: textURL, atomically: true, encoding: .utf8)
+
+lua += "}\n\nproducts = {\n"
+for (type, product) in productsByType {
+    addProductLua(for: product, type: type)
+}
+
+lua += "}\n\nreturn data"
+let luaURL = dataURL.appendingPathComponent("Schematics/data.lua")
+try lua.write(to: luaURL, atomically: true, encoding: .utf8)
