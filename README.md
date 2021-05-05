@@ -32,6 +32,7 @@ Data/
     compact.json    A compact index removing all names.
     names.json      An index mapping a schematic name to its id.
     ids.json        An index mapping a schematic id to its name.
+    data.lua        Lua code which defines a schematic index and a product index.
     readable.txt    A human-readable version of the data.
 
   Products/
