@@ -20,6 +20,7 @@ These have been automatically generated from the raw data, and will be updated w
 Data/
   Schematics/
     raw.json        The raw data dump
+    compact.json    A compact index removing all names.
     names.json      An index mapping a schematic name to its id.
     ids.json        An index mapping a schematic id to its name.
     
