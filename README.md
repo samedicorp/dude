@@ -16,6 +16,10 @@ Along with the raw data are some index files processed from it, which may prove 
 
 These have been automatically generated from the raw data, and will be updated whenever it is.
 
+Each schematic uses one or more ingredients, and produces one or more products. All the data for each product is repeated everywhere that it appears in the raw index, which is not very efficient.
+
+A compact index has therefore been generated, which only refers to each product using its unique identifier and quantity. To accompany this, the product data has been extracted into its own file. If a product is produced by more than one schematic (eg as a side-effect of another schematic), it is linked only to the schematic where it is the first output. 
+
 ### Data Files
 
 ```
