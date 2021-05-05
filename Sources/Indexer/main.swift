@@ -37,12 +37,25 @@ struct Schematic: Codable {
     let time: Double
 }
 
+struct CompactQuantity: Codable {
+    let product: String
+    let quantity: Double
+}
+
+struct CompactSchematic: Codable {
+    let ingredients: [CompactQuantity]
+    let products: [CompactQuantity]
+    let level: Int
+    let time: Double
+}
+
 typealias Schematics = [String:Schematic]
 
 let dataURL = URL(fileURLWithPath: #file).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().appendingPathComponent("Data")
 
 var schematicNameToID: [String:Int] = [:]
 var schematicIDToName: [Int:String] = [:]
+var compactSchematics: [Int:CompactSchematic] = [:]
 var productsByType: [String:Product] = [:]
 var productNameToType: [String:String] = [:]
 var productIDToType: [Int:String] = [:]
@@ -87,8 +100,13 @@ for (id, schematic) in schematics {
     for product in schematic.products {
         add(product: Product(product))
     }
+    let compactIngredients = schematic.ingredients.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
+    let compactProducts = schematic.products.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
+    let compact = CompactSchematic(ingredients: compactIngredients, products: compactProducts, level: schematic.level, time: schematic.time)
+    compactSchematics[schematic.id] = compact
 }
 
+write(compactSchematics, name: "compact")
 write(schematicNameToID, name: "names")
 write(schematicIDToName, name: "ids")
 write(productsByType, name: "products", kind: "Products")
