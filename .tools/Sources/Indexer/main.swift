@@ -31,16 +31,12 @@ struct Schematic: Codable {
     let time: Double
 }
 
-struct CompactQuantity: Codable {
-    let product: String
-    let quantity: Double
-}
-
 struct CompactSchematic: Codable {
-    let ingredients: [String:Double]
-    let products: [String:Double]
     let level: Int
     let time: Double
+    let main: String?
+    let ingredients: [String:Double]
+    let products: [String:Double]
 }
 
 typealias Schematics = [String:Schematic]
@@ -109,7 +105,8 @@ for schematic in sorted {
     }
     let compactIngredients = Dictionary<String,Double>(uniqueKeysWithValues: schematic.ingredients.map({ (product: $0.type, quantity: $0.quantity)}))
     let compactProducts = Dictionary<String,Double>(uniqueKeysWithValues: schematic.products.map({ (product: $0.type, quantity: $0.quantity)}))
-    let compact = CompactSchematic(ingredients: compactIngredients, products: compactProducts, level: schematic.level, time: schematic.time)
+    let main = schematic.products.count > 1 ? schematic.products.first?.type : nil
+    let compact = CompactSchematic(level: schematic.level, time: schematic.time, main: main, ingredients: compactIngredients, products: compactProducts)
     compactSchematics[schematic.id] = compact
     
     let ingredientText: String
