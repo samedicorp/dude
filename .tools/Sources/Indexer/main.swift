@@ -58,6 +58,7 @@ var lua = """
 
 func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: Encodable {
     let encoder = JSONEncoder()
+    encoder.outputFormatting = [.sortedKeys]
     do {
         let url = dataURL.appendingPathComponent(kind).appendingPathComponent(name).appendingPathExtension("json")
         let data = try encoder.encode(value)
