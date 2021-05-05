@@ -19,9 +19,17 @@ Along with the raw data are some index files processed from it, which may prove 
 
 These have been automatically generated from the raw data, and will be updated whenever it is.
 
-Each schematic uses one or more ingredients, and produces one or more products. All the data for each product is repeated everywhere that it appears in the raw index, which is not very efficient.
+There is also a human-readable dump of the data (`readable.txt`), and some generated Lua code (`data.lua`) which you can copy & paste into your scripts.
 
-A compact index has therefore been generated, which only refers to each product using its unique identifier and quantity. To accompany this, the product data has been extracted into its own file. If a product is produced by more than one schematic (eg as a side-effect of another schematic), it is linked only to the schematic where it is the first output. 
+#### Efficiency
+
+Each schematic uses one or more ingredients, and produces one or more products. In the raw data dump, all the data for each product is repeated everywhere that it appears, which is not very efficient.
+
+A compact schematic index has therefore been generated, which only refers to each product using its unique identifier and quantity. 
+
+To accompany this, the product data has been extracted into its own file. With both files you can reconstruct the full data if you need to. 
+
+The product index includes links back to the id of the schematic that makes it. If a product is produced by more than one schematic (eg as a side-effect of another schematic), it is linked only to the schematic where it is the main output. 
 
 ### Data Files
 
