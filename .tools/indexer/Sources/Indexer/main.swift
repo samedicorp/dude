@@ -111,5 +111,5 @@ for (type, product) in productsByType {
 }
 
 lua += "}\n\nreturn data"
-let luaURL = dataURL.appendingPathComponent("Schematics/data.lua")
+let luaURL = dataURL.appendingPathComponent("data.lua")
 try lua.write(to: luaURL, atomically: true, encoding: .utf8)

@@ -39,12 +39,13 @@ The product index includes links back to the id of the schematic that makes it. 
 
 ```
 Data/
+  data.lua        Lua code which defines a schematic index and a product index.
+
   Schematics/
-    raw.json        The raw data dump
+    raw.json        The raw data returned by the schematics API.
     compact.json    A compact index removing all names.
     names.json      An index mapping a schematic name to its id.
     ids.json        An index mapping a schematic id to its name.
-    data.lua        Lua code which defines a schematic index and a product index.
     readable.txt    A human-readable version of the data.
 
   Products/
