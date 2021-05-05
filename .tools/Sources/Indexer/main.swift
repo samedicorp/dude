@@ -8,12 +8,12 @@ import Foundation
 struct Product: Codable {
     let name: String
     let type: String
-    let id: Int?
+    let schematic: Int?
     
     init(_ productQuantity: ProductQuantity) {
         self.name = productQuantity.name
         self.type = productQuantity.type
-        self.id = productQuantity.id
+        self.schematic = productQuantity.id
     }
 }
 
@@ -55,7 +55,6 @@ var schematicIDToName: [Int:String] = [:]
 var compactSchematics: [Int:CompactSchematic] = [:]
 var productsByType: [String:Product] = [:]
 var productNameToType: [String:String] = [:]
-var productIDToType: [Int:String] = [:]
 
 func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: Encodable {
     let encoder = JSONEncoder()
@@ -68,19 +67,19 @@ func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: En
     }
 }
 
-func add(product: Product) {
-    if let existing = productsByType[product.type] {
+func add(product: Product, primary: Bool) {
+    let existing = productsByType[product.type]
+    if let existing = existing {
         assert(existing.name == product.name)
         assert(existing.type == product.type)
-        assert(existing.id == product.id)
+        assert(existing.schematic == product.schematic)
     }
-    productsByType[product.type] = product
-    if let id = product.id {
-        productIDToType[id] = product.type
+    
+    if (existing == nil) || primary {
+        productsByType[product.type] = product
+        productNameToType[product.name] = product.type
     }
-    productNameToType[product.name] = product.type
 }
-
 
 let decoder = JSONDecoder()
 let url = dataURL.appendingPathComponent("Schematics").appendingPathComponent("raw.json")
@@ -94,11 +93,13 @@ for (id, schematic) in schematics {
     assert(Int(id) == schematic.id)
     schematicNameToID[schematic.name] = schematic.id
     schematicIDToName[schematic.id] = schematic.name
+    var primary = true
     for product in schematic.products {
-        add(product: Product(product))
+        add(product: Product(product), primary: primary)
+        primary = false
     }
     for product in schematic.ingredients {
-        add(product: Product(product))
+        add(product: Product(product), primary: false)
     }
     let compactIngredients = schematic.ingredients.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
     let compactProducts = schematic.products.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
@@ -114,4 +115,3 @@ write(schematicIDToName, name: "ids")
 print("\(productsByType.count) products exported.")
 write(productsByType, name: "products", kind: "Products")
 write(productNameToType, name: "names", kind: "Products")
-write(productIDToType, name: "ids", kind: "Products")

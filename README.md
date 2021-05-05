@@ -29,6 +29,5 @@ Data/
   Products/
     products.json   A dump of all products, extracted from the schematic data, indexed by type identifier.
     names.json      An index that maps from a product name to the corresponding type identifier. 
-    ids.json        An index that maps from a product id to the corresponding type identifier.
 ```
 
