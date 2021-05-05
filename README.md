@@ -35,3 +35,12 @@ Data/
     names.json      An index that maps from a product name to the corresponding type identifier. 
 ```
 
+### Suggestions Wanted
+
+Is there more data that you'd like to see collected here?
+
+It makes sense to pool our effort so if anyone wants to suggest or supply other static data files for inclusion, I am up for that.
+
+In particular, some of the data files from [dumap](https://github.com/yamamushi/dumap) might make sense in here, if we can keep them up to date and if the original authors are ok with it.
+
+Add an [issue](https://github.com/samedicorp/dude/issues) or a [pull request](https://github.com/samedicorp/dude/pulls) if you have suggestions...
