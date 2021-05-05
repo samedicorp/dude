@@ -13,7 +13,11 @@ This is an open source repository containing data files useful for [Dual Univers
 
 ### Industry
 
-The first file in this repo is a dump of all schematics JSON data, captured using an in-game script. The plan is to try to keep this up to date by re-running the script periodically. If you notice minor errors, please also consider correcting it and submitting a [pull request](https://github.com/samedicorp/dude/pulls).
+The first category of data archived here is a dump of all schematics and products. 
+
+This comes in the form of JSON data, captured using an in-game script and the schematics API. 
+
+My plan is to try to keep this up to date by re-running the script periodically. If you notice minor errors, please also consider correcting it and submitting a [pull request](https://github.com/samedicorp/dude/pulls).
 
 Along with the raw data are some index files processed from it, which may prove to be more compact/useful, depending on your requirements.
 
