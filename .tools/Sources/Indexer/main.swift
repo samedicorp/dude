@@ -53,6 +53,7 @@ var text = ""
 var lua = """
     local data = {}
     data.schematics = {
+    
     """
 
 func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: Encodable {
