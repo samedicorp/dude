@@ -86,7 +86,16 @@ let schematics = try decoder.decode(Schematics.self, from: data)
 print("\(schematics.count) records imported.")
 var text = ""
 
-let sorted = schematics.values.sorted(by: { r1, r2 in r1.name < r2.name })
+let sorted = schematics
+    .values
+    .sorted(by: { r1, r2 in
+        if r1.level == r2.level {
+            return r1.name < r2.name
+        } else {
+            return r1.level < r2.level
+        }
+    })
+
 for schematic in sorted {
     schematicNameToID[schematic.name] = schematic.id
     schematicIDToName[schematic.id] = schematic.name
@@ -103,9 +112,23 @@ for schematic in sorted {
     let compact = CompactSchematic(ingredients: compactIngredients, products: compactProducts, level: schematic.level, time: schematic.time)
     compactSchematics[schematic.id] = compact
     
-    let ingredientText = schematic.ingredients.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
-    let outputText = schematic.products.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
-    text.append("Name: \(schematic.name)\nLevel: \(schematic.level)\nTime: \(schematic.time)\n\nIngredients:\n\(ingredientText)\n\nOutput:\n\(outputText)\n\n")
+    let ingredientText: String
+    if schematic.ingredients.count == 0 {
+        ingredientText = ""
+    } else {
+        let formatted = schematic.ingredients.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+        ingredientText = "\nIngredients:\n\(formatted)"
+    }
+    
+    let outputText: String
+    if schematic.products.count == 0 {
+        outputText = ""
+    } else {
+        let formatted = schematic.products.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+        outputText = "\nOutput:\n\(formatted)\n"
+    }
+
+    text.append("Name: \(schematic.name)\nLevel: \(schematic.level)\nTime: \(schematic.time)\(ingredientText)\(outputText)\n\n")
 }
 
 print("\(compactSchematics.count) schematics exported.")
