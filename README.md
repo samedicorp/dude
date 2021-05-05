@@ -2,7 +2,7 @@
 
 Welcome to DUDE, the Dual Universe Data Enclave*.
 
-This is an open source repository containing data files useful for [Dual Universe](https://dualthegame.com) scripting.
+This is an open source repository containing data files useful for [Dual Universe](https://www.dualuniverse.game) scripting.
 
 (* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
 
