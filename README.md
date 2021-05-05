@@ -6,11 +6,11 @@ This is an open source repository containing data files useful for [Dual Univers
 
 (* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
 
+**Credits**: Thanks to **Movix** for the initial data extraction, and of course to Novaquark for the actual game.
+
 ### Industry
 
-The first file in this repo is a dump of all schematics JSON data, initially captured by Movix using an in-game script. 
-
-The plan is to try to keep this up to date by re-running the script periodically.
+The first file in this repo is a dump of all schematics JSON data, captured using an in-game script. The plan is to try to keep this up to date by re-running the script periodically. If you notice minor errors, please also consider subitting a pull-request.
 
 Along with the raw data are some index files processed from it, which may prove to be more compact/useful, depending on your requirements.
 
