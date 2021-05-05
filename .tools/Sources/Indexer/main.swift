@@ -5,10 +5,6 @@
 
 import Foundation
 
-/*
- {"604112": {"id": 604112, "ingredients": [{"name": "Glass product", "quantity": 1.0, "type": "GlassProduct", "id": 2118283057}, {"name": "Basic LED", "quantity": 1.0, "type": "led_1", "id": 1137501015}], "level": 1, "products": [{"name": "Basic Laser Chamber xs", "quantity": 1.0, "type": "laserchamber_1_xs", "id": 604112}], "time": 60.0, "name": "Basic Laser Chamber xs"}
- */
-
 struct Product: Codable {
     let name: String
     let type: String
@@ -51,7 +47,8 @@ struct CompactSchematic: Codable {
 
 typealias Schematics = [String:Schematic]
 
-let dataURL = URL(fileURLWithPath: #file).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().appendingPathComponent("Data")
+let rootURL = URL(fileURLWithPath: #file).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+let dataURL = rootURL.appendingPathComponent("Data")
 
 var schematicNameToID: [String:Int] = [:]
 var schematicIDToName: [Int:String] = [:]
@@ -100,15 +97,21 @@ for (id, schematic) in schematics {
     for product in schematic.products {
         add(product: Product(product))
     }
+    for product in schematic.ingredients {
+        add(product: Product(product))
+    }
     let compactIngredients = schematic.ingredients.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
     let compactProducts = schematic.products.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
     let compact = CompactSchematic(ingredients: compactIngredients, products: compactProducts, level: schematic.level, time: schematic.time)
     compactSchematics[schematic.id] = compact
 }
 
+print("\(compactSchematics.count) schematics exported.")
 write(compactSchematics, name: "compact")
 write(schematicNameToID, name: "names")
 write(schematicIDToName, name: "ids")
+
+print("\(productsByType.count) products exported.")
 write(productsByType, name: "products", kind: "Products")
 write(productNameToType, name: "names", kind: "Products")
 write(productIDToType, name: "ids", kind: "Products")
