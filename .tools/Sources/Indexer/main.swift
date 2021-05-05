@@ -84,10 +84,10 @@ let data = try Data(contentsOf: url)
 let schematics = try decoder.decode(Schematics.self, from: data)
 
 print("\(schematics.count) records imported.")
+var text = ""
 
-
-for (id, schematic) in schematics {
-    assert(Int(id) == schematic.id)
+let sorted = schematics.values.sorted(by: { r1, r2 in r1.name < r2.name })
+for schematic in sorted {
     schematicNameToID[schematic.name] = schematic.id
     schematicIDToName[schematic.id] = schematic.name
     var primary = true
@@ -102,6 +102,10 @@ for (id, schematic) in schematics {
     let compactProducts = schematic.products.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
     let compact = CompactSchematic(ingredients: compactIngredients, products: compactProducts, level: schematic.level, time: schematic.time)
     compactSchematics[schematic.id] = compact
+    
+    let ingredientText = schematic.ingredients.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+    let outputText = schematic.products.map({ "- \($0.name) x \($0.quantity)"}).joined(separator: "\n")
+    text.append("Name: \(schematic.name)\nLevel: \(schematic.level)\nTime: \(schematic.time)\n\nIngredients:\n\(ingredientText)\n\nOutput:\n\(outputText)\n\n")
 }
 
 print("\(compactSchematics.count) schematics exported.")
@@ -112,3 +116,6 @@ write(schematicIDToName, name: "ids")
 print("\(productsByType.count) products exported.")
 write(productsByType, name: "products", kind: "Products")
 write(productNameToType, name: "names", kind: "Products")
+
+let textURL = dataURL.appendingPathComponent("Schematics/readable.txt")
+try text.write(to: textURL, atomically: true, encoding: .utf8)
