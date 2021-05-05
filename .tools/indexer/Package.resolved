@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "duswift",
+        "repositoryURL": "https://github.com/samedicorp/duswift.git",
+        "state": {
+          "branch": null,
+          "revision": "ade581a5f5b37bf5a1686a7a57bf56a9f992ed36",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "XCTestExtensions",
         "repositoryURL": "https://github.com/elegantchaos/XCTestExtensions.git",
         "state": {

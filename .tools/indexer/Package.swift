@@ -18,7 +18,7 @@ let package = Package(
             targets: ["Indexer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/samedicorp/duswift.git", from: "0.0.1"),
+        .package(url: "https://github.com/samedicorp/duswift.git", from: "1.0.0"),
         .package(url: "https://github.com/elegantchaos/XCTestExtensions.git", from: "1.3.1")
     ],
     targets: [
