@@ -6,7 +6,7 @@ This is an open source repository containing data files useful for [Dual Univers
 
 (* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
 
-**Credits**: Thanks to **Movix** for the initial data extraction, and of course to Novaquark for the actual game.
+**Credits**: Thanks to **Movix** for the initial data extraction, **Archaegeo:** for feedback & suggestions, and of course to Novaquark for the actual game.
 
 ### Industry
 
