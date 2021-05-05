@@ -4,9 +4,12 @@ Welcome to DUDE, the Dual Universe Data Enclave*.
 
 This is an open source repository containing data files useful for [Dual Universe](https://www.dualuniverse.game) scripting.
 
-(* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
-
 **Credits**: Thanks to **Movix** for the initial data extraction, **Archaegeo:** for feedback & suggestions, and of course to Novaquark for the actual game.
+
+---
+
+(* _yes, the last word of the name absolutely could have been anything at all, as long as it began with "E" and enabled the cheesy acronym_)
+
 
 ### Industry
 
