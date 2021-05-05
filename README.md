@@ -4,6 +4,8 @@ Welcome to DUDE, the Dual Universe Data Enclave*.
 
 This is an open source repository containing data files useful for [Dual Universe](https://dualthegame.com) scripting.
 
+(* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
+
 ### Industry
 
 The first file in this repo is a dump of all schematics JSON data, initially captured by Movix using an in-game script. 
@@ -29,5 +31,4 @@ Data/
     names.json      An index that maps from a product name to the corresponding type identifier. 
     ids.json        An index that maps from a product id to the corresponding type identifier.
 ```
-(* _yes, this absolutely could have been any word at all, as long as it began with "E" and enabled the cheesy acronym_)
 
