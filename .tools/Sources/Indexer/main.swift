@@ -7,12 +7,10 @@ import Foundation
 
 struct Product: Codable {
     let name: String
-    let type: String
     let schematic: Int?
     
     init(_ productQuantity: ProductQuantity) {
         self.name = productQuantity.name
-        self.type = productQuantity.type
         self.schematic = productQuantity.id
     }
 }
@@ -67,17 +65,16 @@ func write<T>(_ value: T, name: String, kind: String = "Schematics") where T: En
     }
 }
 
-func add(product: Product, primary: Bool) {
-    let existing = productsByType[product.type]
+func add(product: Product, type: String, primary: Bool) {
+    let existing = productsByType[type]
     if let existing = existing {
         assert(existing.name == product.name)
-        assert(existing.type == product.type)
         assert(existing.schematic == product.schematic)
     }
     
     if (existing == nil) || primary {
-        productsByType[product.type] = product
-        productNameToType[product.name] = product.type
+        productsByType[type] = product
+        productNameToType[product.name] = type
     }
 }
 
@@ -95,11 +92,11 @@ for (id, schematic) in schematics {
     schematicIDToName[schematic.id] = schematic.name
     var primary = true
     for product in schematic.products {
-        add(product: Product(product), primary: primary)
+        add(product: Product(product), type: product.type, primary: primary)
         primary = false
     }
     for product in schematic.ingredients {
-        add(product: Product(product), primary: false)
+        add(product: Product(product), type: product.type, primary: false)
     }
     let compactIngredients = schematic.ingredients.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
     let compactProducts = schematic.products.map({ CompactQuantity(product: $0.type, quantity: $0.quantity)})
