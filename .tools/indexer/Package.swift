@@ -19,12 +19,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/samedicorp/duswift.git", from: "1.0.0"),
+        .package(url: "https://github.com/elegantchaos/ElegantStrings.git", from: "1.0.0"),
         .package(url: "https://github.com/elegantchaos/XCTestExtensions.git", from: "1.3.1")
     ],
     targets: [
         .target(
             name: "Indexer",
-            dependencies: ["duswift"]),
+            dependencies: ["duswift", "ElegantStrings"]),
         .testTarget(
             name: "IndexerTests",
             dependencies: ["Indexer", "XCTestExtensions"]),

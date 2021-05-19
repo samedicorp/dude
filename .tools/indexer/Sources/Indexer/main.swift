@@ -3,6 +3,7 @@
 //  All code (c) 2021 - present day, Elegant Chaos.
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
+import ElegantStrings
 import Foundation
 import duswift
 
@@ -66,6 +67,59 @@ func addProductLua(for product: Product, type: String) {
     lua.append("    [\"\(type)\"] = { name = \"\(product.name)\"\(schematicString) },\n")
 }
 
+func matchingKey(name: String, recipes: [String:DUMap.Recipe]) -> String? {
+    let lower = name.lowercased()
+    if recipes[lower] != nil {
+        return lower
+    }
+    
+    if let name = lower.remainder(ifPrefix: "basic ").map({ String($0) }), recipes[name] != nil {
+        return name
+    }
+
+    let swapped = ["pure", "full", "empty"]
+    for item in swapped {
+        if let name = lower.remainder(ifPrefix: "\(item) ").map({ String($0) }) {
+            let switched = "\(name) \(item)"
+            if recipes[switched] != nil {
+                return switched
+            }
+        }
+    }
+
+    if let name = lower.remainder(ifSuffix: " product").map({ String($0) }), recipes[name] != nil {
+        return name
+    }
+
+    let subs = [("fuel tank", "fuel-tank"), ("antimatter", "anti-matter"), ("infrared", "infra-red"), ("core unit", "core"), ("wingtip", "wing tip")]
+    for sub in subs {
+        if lower.contains(sub.0) {
+            let replaced = lower.replacingOccurrences(of: sub.0, with: sub.1)
+            if recipes[replaced] != nil {
+                return replaced
+            }
+        }
+    }
+
+    return nil
+}
+
+func matchingKey(id: String, product: Product, schematic: String?, recipes: [String:DUMap.Recipe]) -> String? {
+    if let matched = matchingKey(name: product.name, recipes: recipes) {
+        return matched
+    }
+
+    if let matched = matchingKey(name: id, recipes: recipes) {
+        return matched
+    }
+
+    if let schematic = schematic, let matched = matchingKey(name: schematic, recipes: recipes) {
+        return matched
+    }
+
+    return nil
+}
+
 let url = dataURL.appendingPathComponent("Schematics").appendingPathComponent("raw.json")
 let schematics = try JSONSchematics.load(from: url)
 let sorted = schematics.sortedByLevel
@@ -116,17 +170,25 @@ lua += "}\n\nreturn data"
 let luaURL = dataURL.appendingPathComponent("data.lua")
 try lua.write(to: luaURL, atomically: true, encoding: .utf8)
 
-let recipes = DUMap.loadRecipes(normaliseNames: true)
+var recipes = DUMap.loadRecipes(normaliseNames: true)
 print("\(recipes.count) recipes loaded.")
 
 var combined: [String:FullProduct] = [:]
 for product in productsByType {
-    let key = product.value.name.lowercased()
-    let recipe = recipes[key]
-    if recipe != nil {
-        print("Found matching recipe for \(product.value.name)")
+    let recipe: DUMap.Recipe?
+    if let key = matchingKey(id: product.key, product: product.value, schematic: schematicIDToName[product.value.schematic ?? -1], recipes: recipes) {
+        recipe = recipes[key]
+        recipes.removeValue(forKey: key)
+    } else {
+        recipe = nil
     }
     
     combined[product.key] = FullProduct(product: product.value, recipe: recipe)
 }
+
+if recipes.count > 0 {
+    print("\(recipes.count) recipes weren't matched.")
+    print(recipes.keys.joined(separator: "\n"))
+}
+
 write(combined, name: "combined", kind: "Products")
