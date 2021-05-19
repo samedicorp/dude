@@ -76,11 +76,13 @@ for schematic in sorted {
     schematicNameToID[schematic.name] = schematic.id
     schematicIDToName[schematic.id] = schematic.name
     var primary = true
-    for product in schematic.products {
+    let sortedProducts = schematic.products.sorted(by: { $0.name < $1.name })
+    for product in sortedProducts {
         add(product: Product(product), type: product.type, primary: primary)
         primary = false
     }
-    for product in schematic.ingredients {
+    let sortedIngredients = schematic.ingredients.sorted(by: {$0.name < $1.name })
+    for product in sortedIngredients {
         add(product: Product(product), type: product.type, primary: false)
     }
     let compactIngredients = Dictionary<String,Double>(uniqueKeysWithValues: schematic.ingredients.map({ (product: $0.type, quantity: $0.quantity)}))
@@ -113,3 +115,18 @@ for (type, product) in productsByType {
 lua += "}\n\nreturn data"
 let luaURL = dataURL.appendingPathComponent("data.lua")
 try lua.write(to: luaURL, atomically: true, encoding: .utf8)
+
+let recipes = DUMap.loadRecipes(normaliseNames: true)
+print("\(recipes.count) recipes loaded.")
+
+var combined: [String:FullProduct] = [:]
+for product in productsByType {
+    let key = product.value.name.lowercased()
+    let recipe = recipes[key]
+    if recipe != nil {
+        print("Found matching recipe for \(product.value.name)")
+    }
+    
+    combined[product.key] = FullProduct(product: product.value, recipe: recipe)
+}
+write(combined, name: "combined", kind: "Products")
