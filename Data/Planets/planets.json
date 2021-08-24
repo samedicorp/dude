@@ -1,25 +1,30 @@
-[
-  {
+{
+  "1" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Madis"
+      }
+    },
     "rData" : {
-      "constructId" : 855,
+      "constructId" : 1,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1879,
-        "size" : 4096,
+        "radius" : 45000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon855",
+      "name" : "Madis",
       "parentId" : 0,
       "position" : {
-        "x" : 29241134,
-        "y" : 10792788,
-        "z" : 116989.71000000001
+        "x" : 17400000,
+        "y" : 22600000,
+        "z" : -100000
       },
       "rotation" : {
         "w" : 1,
@@ -29,192 +34,17 @@
       }
     }
   },
-  {
+  "2" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 807,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1074,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon807",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29096636,
-        "y" : 10935446,
-        "z" : 122708.34
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Alioth"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 12,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 15000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Madis Moon 3",
-      "parentId" : 0,
-      "position" : {
-        "x" : 17504233.440000001,
-        "y" : 22168342.899999999,
-        "z" : -326370.21999999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 890,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2366,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon890",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29088712,
-        "y" : 10945419,
-        "z" : 111805.17
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 870,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1730,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon870",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29120370,
-        "y" : 10911287,
-        "z" : -33959.779999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 887,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2594,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon887",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29144628,
-        "y" : 10883405,
-        "z" : 182444.60000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 734,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1370,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon734",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29091372,
-        "y" : 10941039,
-        "z" : 90446.089999999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
     "rData" : {
       "constructId" : 2,
       "geometry" : {
@@ -239,267 +69,32 @@
       }
     }
   },
-  {
+  "3" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 729,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1318,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon729",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29179706,
-        "y" : 10848996,
-        "z" : 172067.48000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Thades"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
     "rData" : {
-      "constructId" : 785,
+      "constructId" : 3,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1183,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon785",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29120940,
-        "y" : 10908248,
-        "z" : 158946.06
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 886,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1453,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon886",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29218538,
-        "y" : 10813836,
-        "z" : -29006.046999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 868,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1154,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon868",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29083878,
-        "y" : 10946963,
-        "z" : 38440.580000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 901,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1811,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon901",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29107512,
-        "y" : 10922652,
-        "z" : -22730.008000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 864,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1024,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon864",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29243362,
-        "y" : 10784766,
-        "z" : 27378.5
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 837,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1056,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon837",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29131504,
-        "y" : 10899431,
-        "z" : -39187.209999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 711,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1353,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon711",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29232526,
-        "y" : 10796345,
-        "z" : 15059.531000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 120,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 45000,
+        "radius" : 62000,
         "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "Ion",
+      "name" : "Thades",
       "parentId" : 0,
       "position" : {
-        "x" : 2800000,
-        "y" : -99100000,
-        "z" : -1000000
+        "x" : 29100000,
+        "y" : 10800000,
+        "z" : 0
       },
       "rotation" : {
         "w" : 1,
@@ -509,27 +104,32 @@
       }
     }
   },
-  {
+  "4" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Talemai"
+      }
+    },
     "rData" : {
-      "constructId" : 759,
+      "constructId" : 4,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1524,
-        "size" : 4096,
+        "radius" : 58000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon759",
+      "name" : "Talemai",
       "parentId" : 0,
       "position" : {
-        "x" : 29091858,
-        "y" : 10938587,
-        "z" : 27969.52
+        "x" : -13300000,
+        "y" : 55700000,
+        "z" : 400000
       },
       "rotation" : {
         "w" : 1,
@@ -539,27 +139,32 @@
       }
     }
   },
-  {
+  "5" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Feli"
+      }
+    },
     "rData" : {
-      "constructId" : 769,
+      "constructId" : 5,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1157,
-        "size" : 4096,
+        "radius" : 60000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon769",
+      "name" : "Feli",
       "parentId" : 0,
       "position" : {
-        "x" : 29142044,
-        "y" : 10887659,
-        "z" : -39989.209999999999
+        "x" : -43600000,
+        "y" : 22500000,
+        "z" : -49000000
       },
       "rotation" : {
         "w" : 1,
@@ -569,372 +174,17 @@
       }
     }
   },
-  {
+  "6" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 898,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2572,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon898",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29083740,
-        "y" : 10945721,
-        "z" : 101599.52
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Sicari"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 848,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1311,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon848",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29117000,
-        "y" : 10915514,
-        "z" : -28262.625
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 859,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1634,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon859",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29092194,
-        "y" : 10938777,
-        "z" : 11616.734
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 865,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1989,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon865",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29185572,
-        "y" : 10845325,
-        "z" : -49453.18
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 710,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1384,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon710",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29235046,
-        "y" : 10797838,
-        "z" : 16469.68
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 786,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1581,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon786",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29134824,
-        "y" : 10893455,
-        "z" : 169545.03
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 880,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2247,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon880",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29086966,
-        "y" : 10943475,
-        "z" : 107786.34
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 103,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 14000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Lacobus Moon 2",
-      "parentId" : 0,
-      "position" : {
-        "x" : 99233670.219999999,
-        "y" : -13645599.266000001,
-        "z" : -1075725.74
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 11,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 12000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Madis Moon 2",
-      "parentId" : 0,
-      "position" : {
-        "x" : 17178242,
-        "y" : 22227249.879999999,
-        "z" : -231346.81
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 661,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1207,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon661",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29156526,
-        "y" : 10875745,
-        "z" : -39061.453000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 885,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2073,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon885",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29182460,
-        "y" : 10846599,
-        "z" : 181248.47
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 829,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1721,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon829",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29142856,
-        "y" : 10886999,
-        "z" : 174753.53
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
     "rData" : {
       "constructId" : 6,
       "geometry" : {
@@ -959,27 +209,32 @@
       }
     }
   },
-  {
+  "7" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Sinnen"
+      }
+    },
     "rData" : {
-      "constructId" : 835,
+      "constructId" : 7,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1472,
-        "size" : 4096,
+        "radius" : 55000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon835",
+      "name" : "Sinnen",
       "parentId" : 0,
       "position" : {
-        "x" : 29229676,
-        "y" : 10802852,
-        "z" : -6796
+        "x" : 58600000,
+        "y" : 29600000,
+        "z" : 58100000
       },
       "rotation" : {
         "w" : 1,
@@ -989,27 +244,32 @@
       }
     }
   },
-  {
+  "8" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Teoma"
+      }
+    },
     "rData" : {
-      "constructId" : 832,
+      "constructId" : 8,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1566,
-        "size" : 4096,
+        "radius" : 61000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon832",
+      "name" : "Teoma",
       "parentId" : 0,
       "position" : {
-        "x" : 29135092,
-        "y" : 10894830,
-        "z" : -41654.209999999999
+        "x" : 80800000,
+        "y" : 54600000,
+        "z" : -1000000
       },
       "rotation" : {
         "w" : 1,
@@ -1019,27 +279,32 @@
       }
     }
   },
-  {
+  "9" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Jago"
+      }
+    },
     "rData" : {
-      "constructId" : 879,
+      "constructId" : 9,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 2236,
-        "size" : 8192,
+        "radius" : 63000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon879",
+      "name" : "Jago",
       "parentId" : 0,
       "position" : {
-        "x" : 29247016,
-        "y" : 10784993,
-        "z" : 95648.380000000005
+        "x" : -94200000,
+        "y" : 12700000,
+        "z" : -3700000
       },
       "rotation" : {
         "w" : 1,
@@ -1049,27 +314,32 @@
       }
     }
   },
-  {
+  "10" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Madis Moon 1"
+      }
+    },
     "rData" : {
-      "constructId" : 847,
+      "constructId" : 10,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 2085,
-        "size" : 8192,
+        "radius" : 10000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon847",
+      "name" : "Madis Moon 1",
       "parentId" : 0,
       "position" : {
-        "x" : 29244596,
-        "y" : 10784238,
-        "z" : 45122.504000000001
+        "x" : 17431734.859999999,
+        "y" : 22950464.030000001,
+        "z" : 126695.98
       },
       "rotation" : {
         "w" : 1,
@@ -1079,27 +349,32 @@
       }
     }
   },
-  {
+  "11" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Madis Moon 2"
+      }
+    },
     "rData" : {
-      "constructId" : 673,
+      "constructId" : 11,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1139,
-        "size" : 4096,
+        "radius" : 12000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon673",
+      "name" : "Madis Moon 2",
       "parentId" : 0,
       "position" : {
-        "x" : 29143992,
-        "y" : 10886581,
-        "z" : 166622.34
+        "x" : 17178242,
+        "y" : 22227249.879999999,
+        "z" : -231346.81
       },
       "rotation" : {
         "w" : 1,
@@ -1109,27 +384,32 @@
       }
     }
   },
-  {
+  "12" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Madis Moon 3"
+      }
+    },
     "rData" : {
-      "constructId" : 803,
+      "constructId" : 12,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1100,
-        "size" : 4096,
+        "radius" : 15000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon803",
+      "name" : "Madis Moon 3",
       "parentId" : 0,
       "position" : {
-        "x" : 29199808,
-        "y" : 10834391,
-        "z" : 169280.89999999999
+        "x" : 17504233.440000001,
+        "y" : 22168342.899999999,
+        "z" : -326370.21999999997
       },
       "rotation" : {
         "w" : 1,
@@ -1139,27 +419,32 @@
       }
     }
   },
-  {
+  "21" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Alioth Moon 1"
+      }
+    },
     "rData" : {
-      "constructId" : 716,
+      "constructId" : 21,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1522,
-        "size" : 4096,
+        "radius" : 30000,
+        "size" : 65536,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon716",
+      "name" : "Alioth Moon 1",
       "parentId" : 0,
       "position" : {
-        "x" : 29229170,
-        "y" : 10801435,
-        "z" : 126054.84
+        "x" : 425164.98824999999,
+        "y" : -1541777.24046,
+        "z" : 82756.996876999998
       },
       "rotation" : {
         "w" : 1,
@@ -1169,12 +454,52 @@
       }
     }
   },
-  {
+  "22" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Alioth Moon 4"
+      }
+    },
+    "rData" : {
+      "constructId" : 22,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 30330,
+        "size" : 65536,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Alioth Moon 4",
+      "parentId" : 0,
+      "position" : {
+        "x" : -1725462.846468,
+        "y" : 696913.81112600002,
+        "z" : -444233.622233
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "26" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Sanctuary"
+      }
+    },
     "rData" : {
       "constructId" : 26,
       "geometry" : {
@@ -1201,1602 +526,17 @@
       }
     }
   },
-  {
+  "30" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 813,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1344,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon813",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29239976,
-        "y" : 10788882,
-        "z" : 104111.78
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Thades Moon 1"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 884,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1162,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon884",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29134662,
-        "y" : 10894301,
-        "z" : -45161.900000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 777,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1084,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon777",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29218196,
-        "y" : 10811083,
-        "z" : 147999.39999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 702,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1202,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon702",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29241142,
-        "y" : 10790563,
-        "z" : 77082.330000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 840,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1842,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon840",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29174162,
-        "y" : 10855871,
-        "z" : -48948.639999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 774,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1691,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon774",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29243268,
-        "y" : 10785297,
-        "z" : 57841.605000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 666,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1073,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon666",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29199998,
-        "y" : 10829342,
-        "z" : 158429.66
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 784,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1461,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon784",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29134322,
-        "y" : 10897545,
-        "z" : 168191.5
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 824,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1426,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon824",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29136470,
-        "y" : 10891258,
-        "z" : -41243.726999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 743,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1107,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon743",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29151874,
-        "y" : 10878167,
-        "z" : 172656.53
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 9,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 63000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Jago",
-      "parentId" : 0,
-      "position" : {
-        "x" : -94200000,
-        "y" : 12700000,
-        "z" : -3700000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 121,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 11000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Ion Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : 2456533.8999999999,
-        "y" : -99150130.266000003,
-        "z" : -1149965.0600000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 731,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1387,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon731",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29242816,
-        "y" : 10790045,
-        "z" : 77831.070000000007
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 101,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 15000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Lacobus Moon 3",
-      "parentId" : 0,
-      "position" : {
-        "x" : 98888906.170000002,
-        "y" : -13967307.060000001,
-        "z" : -663973.28000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 737,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1095,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon737",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29132310,
-        "y" : 10897464,
-        "z" : -32942.266000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 42,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 15000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Talemai Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : -13074792.390000001,
-        "y" : 55765472.758000001,
-        "z" : 723793.66000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 851,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1072,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon851",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29200868,
-        "y" : 10830064,
-        "z" : 171100.62
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 878,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1624,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon878",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29097278,
-        "y" : 10935238,
-        "z" : 132736.92000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 814,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1834,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon814",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29156322,
-        "y" : 10876827,
-        "z" : -47125.125
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 775,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1578,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon775",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29241438,
-        "y" : 10790694,
-        "z" : 31258.523000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 102,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 18000,
-        "size" : 65536,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Lacobus Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : 99148199.439999998,
-        "y" : -13816628.939999999,
-        "z" : -958924.93400000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 704,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1308,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon704",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29135674,
-        "y" : 10896697,
-        "z" : -32486.195
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 753,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1033,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon753",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29131766,
-        "y" : 10898075,
-        "z" : 165423.78
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 869,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1529,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon869",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29241262,
-        "y" : 10788858,
-        "z" : 114718.92999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 783,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1111,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon783",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29099126,
-        "y" : 10929789,
-        "z" : 2288.0508
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 902,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1336,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon902",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29193670,
-        "y" : 10838883,
-        "z" : 179196.44
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 883,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1683,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon883",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29110900,
-        "y" : 10921400,
-        "z" : 154571.04999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 797,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1480,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon797",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29179852,
-        "y" : 10853450,
-        "z" : 175936.23000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 740,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1032,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon740",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29239736,
-        "y" : 10790453,
-        "z" : 39503.612999999998
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 830,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1764,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon830",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29233102,
-        "y" : 10800243,
-        "z" : 1684.5352
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 725,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1206,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon725",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29133404,
-        "y" : 10897660,
-        "z" : -33236.938000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 727,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1208,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon727",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29211632,
-        "y" : 10819832,
-        "z" : 152753.53
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 815,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1158,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon815",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29106482,
-        "y" : 10927058,
-        "z" : 140592.16
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 798,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1354,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon798",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29111552,
-        "y" : 10919586,
-        "z" : 147395.97
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 846,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1225,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon846",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29178036,
-        "y" : 10854141,
-        "z" : -48431.343999999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 765,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1625,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon765",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29215862,
-        "y" : 10815007,
-        "z" : 149739.19
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 821,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1326,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon821",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29154038,
-        "y" : 10874832,
-        "z" : 178170.66
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 874,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1624,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon874",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29169342,
-        "y" : 10861690,
-        "z" : -52798.733999999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 700,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1353,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon700",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29204364,
-        "y" : 10826516,
-        "z" : 157406.62
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 660,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1192,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon660",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29107222,
-        "y" : 10925108,
-        "z" : 130163.28
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 50,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 14000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Feli Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : -43919225.780000001,
-        "y" : 22244650.699999999,
-        "z" : -48878770
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 799,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1067,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon799",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29154990,
-        "y" : 10873364,
-        "z" : 176747.23000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 110,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 49000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Symeon",
-      "parentId" : 0,
-      "position" : {
-        "x" : 14100000,
-        "y" : -85700000,
-        "z" : -1000000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 10,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 10000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Madis Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : 17431734.859999999,
-        "y" : 22950464.030000001,
-        "z" : 126695.98
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 796,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1093,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon796",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29225822,
-        "y" : 10807720,
-        "z" : 140118.89999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 852,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1815,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon852",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29248516,
-        "y" : 10784539,
-        "z" : 79900.164000000004
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 817,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1691,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon817",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29238972,
-        "y" : 10794829,
-        "z" : 115676.25
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 790,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1835,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon790",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29088848,
-        "y" : 10942107,
-        "z" : 93686.940000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 801,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1366,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon801",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29087676,
-        "y" : 10940489,
-        "z" : 94877.029999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 750,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1663,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon750",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29089012,
-        "y" : 10944817,
-        "z" : 71744.429999999993
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 903,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1298,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon903",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29238488,
-        "y" : 10795658,
-        "z" : 581.32029999999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 670,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1184,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon670",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29232486,
-        "y" : 10797248,
-        "z" : 110040.664
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 770,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1218,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon770",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29192656,
-        "y" : 10838901,
-        "z" : 169127.51999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
     "rData" : {
       "constructId" : 30,
       "geometry" : {
@@ -2821,972 +561,17 @@
       }
     }
   },
-  {
+  "31" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 897,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1303,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon897",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29086414,
-        "y" : 10947725,
-        "z" : 28001.719000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Thades Moon 2"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 756,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1281,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon756",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29207942,
-        "y" : 10820907,
-        "z" : -26052.639999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 747,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1552,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon747",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29243420,
-        "y" : 10788093,
-        "z" : 54916.055
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 856,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1718,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon856",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29240260,
-        "y" : 10788034,
-        "z" : 110971.3
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 861,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1521,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon861",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29242112,
-        "y" : 10786336,
-        "z" : 26578.379000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 849,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1854,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon849",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29089240,
-        "y" : 10942881,
-        "z" : 108523.2
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 834,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2127,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon834",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29221398,
-        "y" : 10811691,
-        "z" : 150719.10000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 820,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1408,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon820",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29217190,
-        "y" : 10811675,
-        "z" : 151186.92000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 738,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1025,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon738",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29092478,
-        "y" : 10940650,
-        "z" : 36500.167999999998
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 40,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 12000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Talemai Moon 2",
-      "parentId" : 0,
-      "position" : {
-        "x" : -13519474.34,
-        "y" : 55577940.490000002,
-        "z" : 753452.53000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 100,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 57000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Lacobus",
-      "parentId" : 0,
-      "position" : {
-        "x" : 98800000,
-        "y" : -13600000,
-        "z" : -1000000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 21,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 30000,
-        "size" : 65536,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Alioth Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : 425164.98824999999,
-        "y" : -1541777.24046,
-        "z" : 82756.996876999998
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 699,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1230,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon699",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29218056,
-        "y" : 10814115,
-        "z" : 143436.01999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 3,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 62000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Thades",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29100000,
-        "y" : 10800000,
-        "z" : 0
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 841,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1650,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon841",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29166612,
-        "y" : 10865218,
-        "z" : -49672.758000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 822,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1363,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon822",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29120920,
-        "y" : 10910254,
-        "z" : 159941.81
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 882,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1134,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon882",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29247838,
-        "y" : 10780557,
-        "z" : 71922.130000000005
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 900,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2599,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon900",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29101898,
-        "y" : 10930140,
-        "z" : -13182.055
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 703,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1154,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon703",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29174120,
-        "y" : 10858324,
-        "z" : 172051.39999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 893,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2578,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon893",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29211738,
-        "y" : 10820148,
-        "z" : 166655.85999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 854,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2299,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon854",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29083326,
-        "y" : 10947542,
-        "z" : 52612.023000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 866,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1675,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon866",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29146222,
-        "y" : 10884278,
-        "z" : -49825.366999999998
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 860,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1491,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon860",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29222510,
-        "y" : 10807312,
-        "z" : 149293.94
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 757,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1641,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon757",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29127966,
-        "y" : 10902625,
-        "z" : -31361
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 877,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2175,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon877",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29220898,
-        "y" : 10808816,
-        "z" : -22505.008000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 41,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 11000,
-        "size" : 32768,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Talemai Moon 3",
-      "parentId" : 0,
-      "position" : {
-        "x" : -12816898.619999999,
-        "y" : 55683873.457000002,
-        "z" : 308823.84000000003
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 8,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 61000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Teoma",
-      "parentId" : 0,
-      "position" : {
-        "x" : 80800000,
-        "y" : 54600000,
-        "z" : -1000000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 744,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1138,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon744",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29090462,
-        "y" : 10942424,
-        "z" : 82097.919999999998
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 70,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 17000,
-        "size" : 65536,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Sinnen Moon 1",
-      "parentId" : 0,
-      "position" : {
-        "x" : 58936850.119999997,
-        "y" : 29765175.440000001,
-        "z" : 57936680.979999997
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 896,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2007,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon896",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29145782,
-        "y" : 10883471,
-        "z" : -51550.709999999999
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 793,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1188,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon793",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29087830,
-        "y" : 10946025,
-        "z" : 70430.190000000002
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 800,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1267,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon800",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29103638,
-        "y" : 10930467,
-        "z" : 132573.60000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
     "rData" : {
       "constructId" : 31,
       "geometry" : {
@@ -3811,27 +596,32 @@
       }
     }
   },
-  {
+  "40" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Talemai Moon 2"
+      }
+    },
     "rData" : {
-      "constructId" : 773,
+      "constructId" : 40,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1721,
-        "size" : 4096,
+        "radius" : 12000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon773",
+      "name" : "Talemai Moon 2",
       "parentId" : 0,
       "position" : {
-        "x" : 29236444,
-        "y" : 10796456,
-        "z" : 117867.34
+        "x" : -13519474.34,
+        "y" : 55577940.490000002,
+        "z" : 753452.53000000003
       },
       "rotation" : {
         "w" : 1,
@@ -3841,27 +631,32 @@
       }
     }
   },
-  {
+  "41" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Talemai Moon 3"
+      }
+    },
     "rData" : {
-      "constructId" : 724,
+      "constructId" : 41,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1369,
-        "size" : 4096,
+        "radius" : 11000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon724",
+      "name" : "Talemai Moon 3",
       "parentId" : 0,
       "position" : {
-        "x" : 29145928,
-        "y" : 10887594,
-        "z" : 170190.10000000001
+        "x" : -12816898.619999999,
+        "y" : 55683873.457000002,
+        "z" : 308823.84000000003
       },
       "rotation" : {
         "w" : 1,
@@ -3871,27 +666,32 @@
       }
     }
   },
-  {
+  "42" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Talemai Moon 1"
+      }
+    },
     "rData" : {
-      "constructId" : 763,
+      "constructId" : 42,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1549,
-        "size" : 4096,
+        "radius" : 15000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon763",
+      "name" : "Talemai Moon 1",
       "parentId" : 0,
       "position" : {
-        "x" : 29088362,
-        "y" : 10943940,
-        "z" : 56953.233999999997
+        "x" : -13074792.390000001,
+        "y" : 55765472.758000001,
+        "z" : 723793.66000000003
       },
       "rotation" : {
         "w" : 1,
@@ -3901,27 +701,32 @@
       }
     }
   },
-  {
+  "50" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Feli Moon 1"
+      }
+    },
     "rData" : {
-      "constructId" : 844,
+      "constructId" : 50,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1612,
-        "size" : 4096,
+        "radius" : 14000,
+        "size" : 32768,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon844",
+      "name" : "Feli Moon 1",
       "parentId" : 0,
       "position" : {
-        "x" : 29203922,
-        "y" : 10826843,
-        "z" : -35969.413999999997
+        "x" : -43919225.780000001,
+        "y" : 22244650.699999999,
+        "z" : -48878770
       },
       "rotation" : {
         "w" : 1,
@@ -3931,327 +736,32 @@
       }
     }
   },
-  {
+  "70" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 7,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 55000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Sinnen",
-      "parentId" : 0,
-      "position" : {
-        "x" : 58600000,
-        "y" : 29600000,
-        "z" : 58100000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Sinnen Moon 1"
       }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
     },
-    "kind" : "PLANET",
     "rData" : {
-      "constructId" : 705,
+      "constructId" : 70,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1316,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon705",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29193900,
-        "y" : 10838249,
-        "z" : 165144.06
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 889,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1604,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon889",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29234808,
-        "y" : 10799056,
-        "z" : -6610.5312000000004
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 891,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1310,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon891",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29237122,
-        "y" : 10791180,
-        "z" : 126936.336
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 853,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1271,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon853",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29127596,
-        "y" : 10906496,
-        "z" : 168190.94
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 811,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1586,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon811",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29150554,
-        "y" : 10878186,
-        "z" : -46361.023000000001
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 858,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 1750,
-        "size" : 4096,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon858",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29241288,
-        "y" : 10789614,
-        "z" : 111881.67
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 5,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 60000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Feli",
-      "parentId" : 0,
-      "position" : {
-        "x" : -43600000,
-        "y" : 22500000,
-        "z" : -49000000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 4,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 58000,
-        "size" : 131072,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "Talemai",
-      "parentId" : 0,
-      "position" : {
-        "x" : -13300000,
-        "y" : 55700000,
-        "z" : 400000
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 875,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 2533,
-        "size" : 8192,
-        "voxelLod0" : 5
-      },
-      "isStatic" : true,
-      "name" : "moon875",
-      "parentId" : 0,
-      "position" : {
-        "x" : 29183156,
-        "y" : 10845681,
-        "z" : 180992.66
-      },
-      "rotation" : {
-        "w" : 1,
-        "x" : 0,
-        "y" : 0,
-        "z" : 0
-      }
-    }
-  },
-  {
-    "creatorId" : {
-      "organizationId" : 0,
-      "playerId" : 0
-    },
-    "kind" : "PLANET",
-    "rData" : {
-      "constructId" : 22,
-      "geometry" : {
-        "kind" : "Octree",
-        "radius" : 30330,
+        "radius" : 17000,
         "size" : 65536,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "Alioth Moon 4",
+      "name" : "Sinnen Moon 1",
       "parentId" : 0,
       "position" : {
-        "x" : -1725462.846468,
-        "y" : 696913.81112600002,
-        "z" : -444233.622233
+        "x" : 58936850.119999997,
+        "y" : 29765175.440000001,
+        "z" : 57936680.979999997
       },
       "rotation" : {
         "w" : 1,
@@ -4261,27 +771,32 @@
       }
     }
   },
-  {
+  "100" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Lacobus"
+      }
+    },
     "rData" : {
-      "constructId" : 888,
+      "constructId" : 100,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1831,
-        "size" : 4096,
+        "radius" : 57000,
+        "size" : 131072,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon888",
+      "name" : "Lacobus",
       "parentId" : 0,
       "position" : {
-        "x" : 29109716,
-        "y" : 10924622,
-        "z" : -22882.695
+        "x" : 98800000,
+        "y" : -13600000,
+        "z" : -1000000
       },
       "rotation" : {
         "w" : 1,
@@ -4291,12 +806,227 @@
       }
     }
   },
-  {
+  "101" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Lacobus Moon 3"
+      }
+    },
+    "rData" : {
+      "constructId" : 101,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 15000,
+        "size" : 32768,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Lacobus Moon 3",
+      "parentId" : 0,
+      "position" : {
+        "x" : 98888906.170000002,
+        "y" : -13967307.060000001,
+        "z" : -663973.28000000003
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "102" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Lacobus Moon 1"
+      }
+    },
+    "rData" : {
+      "constructId" : 102,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 18000,
+        "size" : 65536,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Lacobus Moon 1",
+      "parentId" : 0,
+      "position" : {
+        "x" : 99148199.439999998,
+        "y" : -13816628.939999999,
+        "z" : -958924.93400000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "103" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Lacobus Moon 2"
+      }
+    },
+    "rData" : {
+      "constructId" : 103,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 14000,
+        "size" : 32768,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Lacobus Moon 2",
+      "parentId" : 0,
+      "position" : {
+        "x" : 99233670.219999999,
+        "y" : -13645599.266000001,
+        "z" : -1075725.74
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "110" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Symeon"
+      }
+    },
+    "rData" : {
+      "constructId" : 110,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 49000,
+        "size" : 131072,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Symeon",
+      "parentId" : 0,
+      "position" : {
+        "x" : 14100000,
+        "y" : -85700000,
+        "z" : -1000000
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "120" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Ion"
+      }
+    },
+    "rData" : {
+      "constructId" : 120,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 45000,
+        "size" : 131072,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Ion",
+      "parentId" : 0,
+      "position" : {
+        "x" : 2800000,
+        "y" : -99100000,
+        "z" : -1000000
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "121" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Ion Moon 1"
+      }
+    },
+    "rData" : {
+      "constructId" : 121,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 11000,
+        "size" : 32768,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "Ion Moon 1",
+      "parentId" : 0,
+      "position" : {
+        "x" : 2456533.8999999999,
+        "y" : -99150130.266000003,
+        "z" : -1149965.0600000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "122" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "Ion Moon 2"
+      }
+    },
     "rData" : {
       "constructId" : 122,
       "geometry" : {
@@ -4321,12 +1051,927 @@
       }
     }
   },
-  {
+  "660" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon660"
+      }
+    },
+    "rData" : {
+      "constructId" : 660,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1192,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon660",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29107222,
+        "y" : 10925108,
+        "z" : 130163.28
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "661" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon661"
+      }
+    },
+    "rData" : {
+      "constructId" : 661,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1207,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon661",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29156526,
+        "y" : 10875745,
+        "z" : -39061.453000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "666" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon666"
+      }
+    },
+    "rData" : {
+      "constructId" : 666,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1073,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon666",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29199998,
+        "y" : 10829342,
+        "z" : 158429.66
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "670" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon670"
+      }
+    },
+    "rData" : {
+      "constructId" : 670,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1184,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon670",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29232486,
+        "y" : 10797248,
+        "z" : 110040.664
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "673" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon673"
+      }
+    },
+    "rData" : {
+      "constructId" : 673,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1139,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon673",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29143992,
+        "y" : 10886581,
+        "z" : 166622.34
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "699" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon699"
+      }
+    },
+    "rData" : {
+      "constructId" : 699,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1230,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon699",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29218056,
+        "y" : 10814115,
+        "z" : 143436.01999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "700" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon700"
+      }
+    },
+    "rData" : {
+      "constructId" : 700,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1353,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon700",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29204364,
+        "y" : 10826516,
+        "z" : 157406.62
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "702" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon702"
+      }
+    },
+    "rData" : {
+      "constructId" : 702,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1202,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon702",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29241142,
+        "y" : 10790563,
+        "z" : 77082.330000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "703" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon703"
+      }
+    },
+    "rData" : {
+      "constructId" : 703,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1154,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon703",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29174120,
+        "y" : 10858324,
+        "z" : 172051.39999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "704" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon704"
+      }
+    },
+    "rData" : {
+      "constructId" : 704,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1308,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon704",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29135674,
+        "y" : 10896697,
+        "z" : -32486.195
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "705" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon705"
+      }
+    },
+    "rData" : {
+      "constructId" : 705,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1316,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon705",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29193900,
+        "y" : 10838249,
+        "z" : 165144.06
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "710" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon710"
+      }
+    },
+    "rData" : {
+      "constructId" : 710,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1384,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon710",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29235046,
+        "y" : 10797838,
+        "z" : 16469.68
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "711" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon711"
+      }
+    },
+    "rData" : {
+      "constructId" : 711,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1353,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon711",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29232526,
+        "y" : 10796345,
+        "z" : 15059.531000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "716" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon716"
+      }
+    },
+    "rData" : {
+      "constructId" : 716,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1522,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon716",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29229170,
+        "y" : 10801435,
+        "z" : 126054.84
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "724" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon724"
+      }
+    },
+    "rData" : {
+      "constructId" : 724,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1369,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon724",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29145928,
+        "y" : 10887594,
+        "z" : 170190.10000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "725" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon725"
+      }
+    },
+    "rData" : {
+      "constructId" : 725,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1206,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon725",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29133404,
+        "y" : 10897660,
+        "z" : -33236.938000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "727" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon727"
+      }
+    },
+    "rData" : {
+      "constructId" : 727,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1208,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon727",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29211632,
+        "y" : 10819832,
+        "z" : 152753.53
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "729" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon729"
+      }
+    },
+    "rData" : {
+      "constructId" : 729,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1318,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon729",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29179706,
+        "y" : 10848996,
+        "z" : 172067.48000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "731" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon731"
+      }
+    },
+    "rData" : {
+      "constructId" : 731,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1387,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon731",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29242816,
+        "y" : 10790045,
+        "z" : 77831.070000000007
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "734" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon734"
+      }
+    },
+    "rData" : {
+      "constructId" : 734,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1370,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon734",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29091372,
+        "y" : 10941039,
+        "z" : 90446.089999999997
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "737" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon737"
+      }
+    },
+    "rData" : {
+      "constructId" : 737,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1095,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon737",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29132310,
+        "y" : 10897464,
+        "z" : -32942.266000000003
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "738" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon738"
+      }
+    },
+    "rData" : {
+      "constructId" : 738,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1025,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon738",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29092478,
+        "y" : 10940650,
+        "z" : 36500.167999999998
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "740" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon740"
+      }
+    },
+    "rData" : {
+      "constructId" : 740,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1032,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon740",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29239736,
+        "y" : 10790453,
+        "z" : 39503.612999999998
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "743" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon743"
+      }
+    },
+    "rData" : {
+      "constructId" : 743,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1107,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon743",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29151874,
+        "y" : 10878167,
+        "z" : 172656.53
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "744" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon744"
+      }
+    },
+    "rData" : {
+      "constructId" : 744,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1138,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon744",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29090462,
+        "y" : 10942424,
+        "z" : 82097.919999999998
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "747" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon747"
+      }
+    },
+    "rData" : {
+      "constructId" : 747,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1552,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon747",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29243420,
+        "y" : 10788093,
+        "z" : 54916.055
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "748" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon748"
+      }
+    },
     "rData" : {
       "constructId" : 748,
       "geometry" : {
@@ -4351,27 +1996,32 @@
       }
     }
   },
-  {
+  "750" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon750"
+      }
+    },
     "rData" : {
-      "constructId" : 857,
+      "constructId" : 750,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 2304,
-        "size" : 8192,
+        "radius" : 1663,
+        "size" : 4096,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon857",
+      "name" : "moon750",
       "parentId" : 0,
       "position" : {
-        "x" : 29229462,
-        "y" : 10799960,
-        "z" : 138097.10999999999
+        "x" : 29089012,
+        "y" : 10944817,
+        "z" : 71744.429999999993
       },
       "rotation" : {
         "w" : 1,
@@ -4381,12 +2031,157 @@
       }
     }
   },
-  {
+  "752" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon752"
+      }
+    },
+    "rData" : {
+      "constructId" : 752,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1632,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon752",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29089086,
+        "y" : 10942862,
+        "z" : 84312.509999999995
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "753" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon753"
+      }
+    },
+    "rData" : {
+      "constructId" : 753,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1033,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon753",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29131766,
+        "y" : 10898075,
+        "z" : 165423.78
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "756" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon756"
+      }
+    },
+    "rData" : {
+      "constructId" : 756,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1281,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon756",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29207942,
+        "y" : 10820907,
+        "z" : -26052.639999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "757" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon757"
+      }
+    },
+    "rData" : {
+      "constructId" : 757,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1641,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon757",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29127966,
+        "y" : 10902625,
+        "z" : -31361
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "758" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon758"
+      }
+    },
     "rData" : {
       "constructId" : 758,
       "geometry" : {
@@ -4411,27 +2206,32 @@
       }
     }
   },
-  {
+  "759" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon759"
+      }
+    },
     "rData" : {
-      "constructId" : 1,
+      "constructId" : 759,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 45000,
-        "size" : 131072,
+        "radius" : 1524,
+        "size" : 4096,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "Madis",
+      "name" : "moon759",
       "parentId" : 0,
       "position" : {
-        "x" : 17400000,
-        "y" : 22600000,
-        "z" : -100000
+        "x" : 29091858,
+        "y" : 10938587,
+        "z" : 27969.52
       },
       "rotation" : {
         "w" : 1,
@@ -4441,12 +2241,2152 @@
       }
     }
   },
-  {
+  "763" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon763"
+      }
+    },
+    "rData" : {
+      "constructId" : 763,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1549,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon763",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29088362,
+        "y" : 10943940,
+        "z" : 56953.233999999997
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "765" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon765"
+      }
+    },
+    "rData" : {
+      "constructId" : 765,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1625,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon765",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29215862,
+        "y" : 10815007,
+        "z" : 149739.19
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "769" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon769"
+      }
+    },
+    "rData" : {
+      "constructId" : 769,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1157,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon769",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29142044,
+        "y" : 10887659,
+        "z" : -39989.209999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "770" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon770"
+      }
+    },
+    "rData" : {
+      "constructId" : 770,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1218,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon770",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29192656,
+        "y" : 10838901,
+        "z" : 169127.51999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "773" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon773"
+      }
+    },
+    "rData" : {
+      "constructId" : 773,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1721,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon773",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29236444,
+        "y" : 10796456,
+        "z" : 117867.34
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "774" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon774"
+      }
+    },
+    "rData" : {
+      "constructId" : 774,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1691,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon774",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29243268,
+        "y" : 10785297,
+        "z" : 57841.605000000003
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "775" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon775"
+      }
+    },
+    "rData" : {
+      "constructId" : 775,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1578,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon775",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29241438,
+        "y" : 10790694,
+        "z" : 31258.523000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "777" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon777"
+      }
+    },
+    "rData" : {
+      "constructId" : 777,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1084,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon777",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29218196,
+        "y" : 10811083,
+        "z" : 147999.39999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "783" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon783"
+      }
+    },
+    "rData" : {
+      "constructId" : 783,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1111,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon783",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29099126,
+        "y" : 10929789,
+        "z" : 2288.0508
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "784" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon784"
+      }
+    },
+    "rData" : {
+      "constructId" : 784,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1461,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon784",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29134322,
+        "y" : 10897545,
+        "z" : 168191.5
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "785" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon785"
+      }
+    },
+    "rData" : {
+      "constructId" : 785,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1183,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon785",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29120940,
+        "y" : 10908248,
+        "z" : 158946.06
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "786" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon786"
+      }
+    },
+    "rData" : {
+      "constructId" : 786,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1581,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon786",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29134824,
+        "y" : 10893455,
+        "z" : 169545.03
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "790" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon790"
+      }
+    },
+    "rData" : {
+      "constructId" : 790,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1835,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon790",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29088848,
+        "y" : 10942107,
+        "z" : 93686.940000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "793" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon793"
+      }
+    },
+    "rData" : {
+      "constructId" : 793,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1188,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon793",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29087830,
+        "y" : 10946025,
+        "z" : 70430.190000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "796" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon796"
+      }
+    },
+    "rData" : {
+      "constructId" : 796,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1093,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon796",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29225822,
+        "y" : 10807720,
+        "z" : 140118.89999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "797" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon797"
+      }
+    },
+    "rData" : {
+      "constructId" : 797,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1480,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon797",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29179852,
+        "y" : 10853450,
+        "z" : 175936.23000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "798" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon798"
+      }
+    },
+    "rData" : {
+      "constructId" : 798,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1354,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon798",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29111552,
+        "y" : 10919586,
+        "z" : 147395.97
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "799" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon799"
+      }
+    },
+    "rData" : {
+      "constructId" : 799,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1067,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon799",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29154990,
+        "y" : 10873364,
+        "z" : 176747.23000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "800" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon800"
+      }
+    },
+    "rData" : {
+      "constructId" : 800,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1267,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon800",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29103638,
+        "y" : 10930467,
+        "z" : 132573.60000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "801" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon801"
+      }
+    },
+    "rData" : {
+      "constructId" : 801,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1366,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon801",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29087676,
+        "y" : 10940489,
+        "z" : 94877.029999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "803" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon803"
+      }
+    },
+    "rData" : {
+      "constructId" : 803,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1100,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon803",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29199808,
+        "y" : 10834391,
+        "z" : 169280.89999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "807" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon807"
+      }
+    },
+    "rData" : {
+      "constructId" : 807,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1074,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon807",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29096636,
+        "y" : 10935446,
+        "z" : 122708.34
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "811" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon811"
+      }
+    },
+    "rData" : {
+      "constructId" : 811,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1586,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon811",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29150554,
+        "y" : 10878186,
+        "z" : -46361.023000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "813" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon813"
+      }
+    },
+    "rData" : {
+      "constructId" : 813,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1344,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon813",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29239976,
+        "y" : 10788882,
+        "z" : 104111.78
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "814" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon814"
+      }
+    },
+    "rData" : {
+      "constructId" : 814,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1834,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon814",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29156322,
+        "y" : 10876827,
+        "z" : -47125.125
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "815" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon815"
+      }
+    },
+    "rData" : {
+      "constructId" : 815,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1158,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon815",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29106482,
+        "y" : 10927058,
+        "z" : 140592.16
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "817" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon817"
+      }
+    },
+    "rData" : {
+      "constructId" : 817,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1691,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon817",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29238972,
+        "y" : 10794829,
+        "z" : 115676.25
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "820" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon820"
+      }
+    },
+    "rData" : {
+      "constructId" : 820,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1408,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon820",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29217190,
+        "y" : 10811675,
+        "z" : 151186.92000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "821" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon821"
+      }
+    },
+    "rData" : {
+      "constructId" : 821,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1326,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon821",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29154038,
+        "y" : 10874832,
+        "z" : 178170.66
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "822" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon822"
+      }
+    },
+    "rData" : {
+      "constructId" : 822,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1363,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon822",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29120920,
+        "y" : 10910254,
+        "z" : 159941.81
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "824" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon824"
+      }
+    },
+    "rData" : {
+      "constructId" : 824,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1426,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon824",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29136470,
+        "y" : 10891258,
+        "z" : -41243.726999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "829" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon829"
+      }
+    },
+    "rData" : {
+      "constructId" : 829,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1721,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon829",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29142856,
+        "y" : 10886999,
+        "z" : 174753.53
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "830" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon830"
+      }
+    },
+    "rData" : {
+      "constructId" : 830,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1764,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon830",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29233102,
+        "y" : 10800243,
+        "z" : 1684.5352
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "832" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon832"
+      }
+    },
+    "rData" : {
+      "constructId" : 832,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1566,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon832",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29135092,
+        "y" : 10894830,
+        "z" : -41654.209999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "834" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon834"
+      }
+    },
+    "rData" : {
+      "constructId" : 834,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2127,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon834",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29221398,
+        "y" : 10811691,
+        "z" : 150719.10000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "835" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon835"
+      }
+    },
+    "rData" : {
+      "constructId" : 835,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1472,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon835",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29229676,
+        "y" : 10802852,
+        "z" : -6796
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "837" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon837"
+      }
+    },
+    "rData" : {
+      "constructId" : 837,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1056,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon837",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29131504,
+        "y" : 10899431,
+        "z" : -39187.209999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "840" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon840"
+      }
+    },
+    "rData" : {
+      "constructId" : 840,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1842,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon840",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29174162,
+        "y" : 10855871,
+        "z" : -48948.639999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "841" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon841"
+      }
+    },
+    "rData" : {
+      "constructId" : 841,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1650,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon841",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29166612,
+        "y" : 10865218,
+        "z" : -49672.758000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "844" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon844"
+      }
+    },
+    "rData" : {
+      "constructId" : 844,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1612,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon844",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29203922,
+        "y" : 10826843,
+        "z" : -35969.413999999997
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "846" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon846"
+      }
+    },
+    "rData" : {
+      "constructId" : 846,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1225,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon846",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29178036,
+        "y" : 10854141,
+        "z" : -48431.343999999997
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "847" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon847"
+      }
+    },
+    "rData" : {
+      "constructId" : 847,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2085,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon847",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29244596,
+        "y" : 10784238,
+        "z" : 45122.504000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "848" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon848"
+      }
+    },
+    "rData" : {
+      "constructId" : 848,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1311,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon848",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29117000,
+        "y" : 10915514,
+        "z" : -28262.625
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "849" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon849"
+      }
+    },
+    "rData" : {
+      "constructId" : 849,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1854,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon849",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29089240,
+        "y" : 10942881,
+        "z" : 108523.2
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "851" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon851"
+      }
+    },
+    "rData" : {
+      "constructId" : 851,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1072,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon851",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29200868,
+        "y" : 10830064,
+        "z" : 171100.62
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "852" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon852"
+      }
+    },
+    "rData" : {
+      "constructId" : 852,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1815,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon852",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29248516,
+        "y" : 10784539,
+        "z" : 79900.164000000004
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "853" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon853"
+      }
+    },
+    "rData" : {
+      "constructId" : 853,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1271,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon853",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29127596,
+        "y" : 10906496,
+        "z" : 168190.94
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "854" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon854"
+      }
+    },
+    "rData" : {
+      "constructId" : 854,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2299,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon854",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29083326,
+        "y" : 10947542,
+        "z" : 52612.023000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "855" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon855"
+      }
+    },
+    "rData" : {
+      "constructId" : 855,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1879,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon855",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29241134,
+        "y" : 10792788,
+        "z" : 116989.71000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "856" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon856"
+      }
+    },
+    "rData" : {
+      "constructId" : 856,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1718,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon856",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29240260,
+        "y" : 10788034,
+        "z" : 110971.3
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "857" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon857"
+      }
+    },
+    "rData" : {
+      "constructId" : 857,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2304,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon857",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29229462,
+        "y" : 10799960,
+        "z" : 138097.10999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "858" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon858"
+      }
+    },
+    "rData" : {
+      "constructId" : 858,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1750,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon858",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29241288,
+        "y" : 10789614,
+        "z" : 111881.67
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "859" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon859"
+      }
+    },
+    "rData" : {
+      "constructId" : 859,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1634,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon859",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29092194,
+        "y" : 10938777,
+        "z" : 11616.734
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "860" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon860"
+      }
+    },
+    "rData" : {
+      "constructId" : 860,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1491,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon860",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29222510,
+        "y" : 10807312,
+        "z" : 149293.94
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "861" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon861"
+      }
+    },
+    "rData" : {
+      "constructId" : 861,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1521,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon861",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29242112,
+        "y" : 10786336,
+        "z" : 26578.379000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "864" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon864"
+      }
+    },
+    "rData" : {
+      "constructId" : 864,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1024,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon864",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29243362,
+        "y" : 10784766,
+        "z" : 27378.5
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "865" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon865"
+      }
+    },
+    "rData" : {
+      "constructId" : 865,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1989,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon865",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29185572,
+        "y" : 10845325,
+        "z" : -49453.18
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "866" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon866"
+      }
+    },
+    "rData" : {
+      "constructId" : 866,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1675,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon866",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29146222,
+        "y" : 10884278,
+        "z" : -49825.366999999998
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "868" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon868"
+      }
+    },
+    "rData" : {
+      "constructId" : 868,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1154,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon868",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29083878,
+        "y" : 10946963,
+        "z" : 38440.580000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "869" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon869"
+      }
+    },
+    "rData" : {
+      "constructId" : 869,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1529,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon869",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29241262,
+        "y" : 10788858,
+        "z" : 114718.92999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "870" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon870"
+      }
+    },
+    "rData" : {
+      "constructId" : 870,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1730,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon870",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29120370,
+        "y" : 10911287,
+        "z" : -33959.779999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "872" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon872"
+      }
+    },
     "rData" : {
       "constructId" : 872,
       "geometry" : {
@@ -4471,27 +4411,837 @@
       }
     }
   },
-  {
+  "874" : {
     "creatorId" : {
       "organizationId" : 0,
       "playerId" : 0
     },
     "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon874"
+      }
+    },
     "rData" : {
-      "constructId" : 752,
+      "constructId" : 874,
       "geometry" : {
         "kind" : "Octree",
-        "radius" : 1632,
+        "radius" : 1624,
         "size" : 4096,
         "voxelLod0" : 5
       },
       "isStatic" : true,
-      "name" : "moon752",
+      "name" : "moon874",
       "parentId" : 0,
       "position" : {
-        "x" : 29089086,
-        "y" : 10942862,
-        "z" : 84312.509999999995
+        "x" : 29169342,
+        "y" : 10861690,
+        "z" : -52798.733999999997
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "875" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon875"
+      }
+    },
+    "rData" : {
+      "constructId" : 875,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2533,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon875",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29183156,
+        "y" : 10845681,
+        "z" : 180992.66
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "877" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon877"
+      }
+    },
+    "rData" : {
+      "constructId" : 877,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2175,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon877",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29220898,
+        "y" : 10808816,
+        "z" : -22505.008000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "878" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon878"
+      }
+    },
+    "rData" : {
+      "constructId" : 878,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1624,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon878",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29097278,
+        "y" : 10935238,
+        "z" : 132736.92000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "879" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon879"
+      }
+    },
+    "rData" : {
+      "constructId" : 879,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2236,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon879",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29247016,
+        "y" : 10784993,
+        "z" : 95648.380000000005
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "880" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon880"
+      }
+    },
+    "rData" : {
+      "constructId" : 880,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2247,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon880",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29086966,
+        "y" : 10943475,
+        "z" : 107786.34
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "882" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon882"
+      }
+    },
+    "rData" : {
+      "constructId" : 882,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1134,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon882",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29247838,
+        "y" : 10780557,
+        "z" : 71922.130000000005
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "883" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon883"
+      }
+    },
+    "rData" : {
+      "constructId" : 883,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1683,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon883",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29110900,
+        "y" : 10921400,
+        "z" : 154571.04999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "884" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon884"
+      }
+    },
+    "rData" : {
+      "constructId" : 884,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1162,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon884",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29134662,
+        "y" : 10894301,
+        "z" : -45161.900000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "885" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon885"
+      }
+    },
+    "rData" : {
+      "constructId" : 885,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2073,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon885",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29182460,
+        "y" : 10846599,
+        "z" : 181248.47
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "886" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon886"
+      }
+    },
+    "rData" : {
+      "constructId" : 886,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1453,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon886",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29218538,
+        "y" : 10813836,
+        "z" : -29006.046999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "887" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon887"
+      }
+    },
+    "rData" : {
+      "constructId" : 887,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2594,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon887",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29144628,
+        "y" : 10883405,
+        "z" : 182444.60000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "888" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon888"
+      }
+    },
+    "rData" : {
+      "constructId" : 888,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1831,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon888",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29109716,
+        "y" : 10924622,
+        "z" : -22882.695
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "889" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon889"
+      }
+    },
+    "rData" : {
+      "constructId" : 889,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1604,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon889",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29234808,
+        "y" : 10799056,
+        "z" : -6610.5312000000004
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "890" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon890"
+      }
+    },
+    "rData" : {
+      "constructId" : 890,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2366,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon890",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29088712,
+        "y" : 10945419,
+        "z" : 111805.17
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "891" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon891"
+      }
+    },
+    "rData" : {
+      "constructId" : 891,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1310,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon891",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29237122,
+        "y" : 10791180,
+        "z" : 126936.336
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "893" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon893"
+      }
+    },
+    "rData" : {
+      "constructId" : 893,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2578,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon893",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29211738,
+        "y" : 10820148,
+        "z" : 166655.85999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "896" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon896"
+      }
+    },
+    "rData" : {
+      "constructId" : 896,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2007,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon896",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29145782,
+        "y" : 10883471,
+        "z" : -51550.709999999999
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "897" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon897"
+      }
+    },
+    "rData" : {
+      "constructId" : 897,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1303,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon897",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29086414,
+        "y" : 10947725,
+        "z" : 28001.719000000001
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "898" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon898"
+      }
+    },
+    "rData" : {
+      "constructId" : 898,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2572,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon898",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29083740,
+        "y" : 10945721,
+        "z" : 101599.52
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "900" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon900"
+      }
+    },
+    "rData" : {
+      "constructId" : 900,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 2599,
+        "size" : 8192,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon900",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29101898,
+        "y" : 10930140,
+        "z" : -13182.055
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "901" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon901"
+      }
+    },
+    "rData" : {
+      "constructId" : 901,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1811,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon901",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29107512,
+        "y" : 10922652,
+        "z" : -22730.008000000002
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "902" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon902"
+      }
+    },
+    "rData" : {
+      "constructId" : 902,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1336,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon902",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29193670,
+        "y" : 10838883,
+        "z" : 179196.44
+      },
+      "rotation" : {
+        "w" : 1,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0
+      }
+    }
+  },
+  "903" : {
+    "creatorId" : {
+      "organizationId" : 0,
+      "playerId" : 0
+    },
+    "kind" : "PLANET",
+    "planetProperties" : {
+      "description" : {
+        "displayName" : "moon903"
+      }
+    },
+    "rData" : {
+      "constructId" : 903,
+      "geometry" : {
+        "kind" : "Octree",
+        "radius" : 1298,
+        "size" : 4096,
+        "voxelLod0" : 5
+      },
+      "isStatic" : true,
+      "name" : "moon903",
+      "parentId" : 0,
+      "position" : {
+        "x" : 29238488,
+        "y" : 10795658,
+        "z" : 581.32029999999997
       },
       "rotation" : {
         "w" : 1,
@@ -4501,4 +5251,4 @@
       }
     }
   }
-]
+}
